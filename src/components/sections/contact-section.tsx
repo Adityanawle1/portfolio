@@ -33,7 +33,7 @@ export function ContactSection() {
     <FadeUp id="contact" className="pb-32">
       <div className="flex flex-col items-center text-center">
         <h2 className="mb-6 text-3xl font-cursive text-foreground/80 font-medium">
-          Let's get in touch
+          Let&apos;s get in touch
         </h2>
         <p className="max-w-[40ch] text-xs leading-relaxed text-muted-foreground/60 mb-16 tracking-wide">
           Whether you have a question about my work, want to discuss equity markets, or simply say hello, feel free to reach out.
