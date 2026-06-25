@@ -36,7 +36,7 @@ export function HeroSection() {
     >
       <motion.div variants={container} initial="hidden" animate="show" className="z-10 relative w-full max-w-2xl mx-auto flex flex-col items-center text-center">
         
-        <motion.p variants={item} className="mb-8 text-[10px] uppercase tracking-[0.3em] text-muted-foreground/60 font-medium">
+        <motion.p variants={item} className="mb-8 text-xs uppercase tracking-[0.3em] text-muted-foreground/80 font-semibold">
           Aditya Nawle
         </motion.p>
 

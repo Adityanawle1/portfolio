@@ -7,8 +7,12 @@ export function ThemeProvider({ children }: { children: React.ReactNode }) {
 
   useEffect(() => {
     const saved = localStorage.getItem("theme");
-    if (saved === "dark") {
+    // Default to dark mode if no theme is saved, or if saved theme is dark
+    if (saved === "dark" || saved === null) {
       document.documentElement.classList.add("dark");
+      if (saved === null) {
+        localStorage.setItem("theme", "dark");
+      }
     }
     setMounted(true);
   }, []);
