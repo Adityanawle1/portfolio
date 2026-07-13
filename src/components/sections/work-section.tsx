@@ -21,9 +21,10 @@ const projects = [
   },
   {
     index: "03",
-    title: "Independent Equity Research",
+    title: "AI Web Development Intern",
     description:
-      "Conducted independent fundamental analysis on NCL Industries and identified the company at Rs.72 before it appreciated to Rs.240, reinforcing a process-driven, long-term approach to stock research.",
+      "Completed an internship at InAmigos Foundation (June – July 2026), focused on building responsive frontend components, styling with Tailwind CSS, and integrating AI features to enhance user interaction.",
+    tech: "React · Next.js · AI Integration · Tailwind CSS",
   },
 ];
 

@@ -6,11 +6,11 @@ import { FadeUp } from "@/components/fade-up";
 import { motion } from "framer-motion";
 
 const cycleWords = [
-  "equity research.",
-  "portfolio drift.",
-  "hidden fees.",
-  "tax decisions.",
-  "market clarity.",
+  "AI interfaces.",
+  "modern web apps.",
+  "agentic workflows.",
+  "fintech solutions.",
+  "clean user experiences.",
 ];
 
 export function HeroSection() {
@@ -41,7 +41,7 @@ export function HeroSection() {
         </motion.p>
 
         <motion.h1 variants={item} className="text-2xl md:text-3xl font-medium tracking-wide text-foreground/90 mb-4">
-          FinTech Builder &bull; AI Student
+          Full-Stack Developer &bull; AI Student
         </motion.h1>
 
         <motion.div variants={item} className="text-xl md:text-2xl font-cursive text-muted-foreground mb-8">
@@ -56,7 +56,7 @@ export function HeroSection() {
         </motion.div>
 
         <motion.p variants={item} className="text-xs md:text-sm text-muted-foreground/80 leading-loose max-w-[50ch] mb-12">
-          Third-year B.Tech student at SRM. I focus on equity markets, AI-assisted research, and product building. I create practical tools that make complex investment decisions clearer for retail investors.
+          Third-year B.Tech student at SRM specializing in Artificial Intelligence. I focus on building intelligent web applications, AI-assisted products, and fintech tools. I create practical solutions that combine modern web engineering with agentic workflows.
         </motion.p>
 
         <motion.div variants={item} className="flex gap-6 items-center">

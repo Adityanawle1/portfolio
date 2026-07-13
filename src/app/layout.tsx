@@ -23,7 +23,7 @@ const caveat = Caveat({
 export const metadata: Metadata = {
   title: "Aditya Nawle — Portfolio",
   description:
-    "FinTech Builder & B.Tech AI Student focused on equity markets, AI-assisted research, and product building.",
+    "Full-Stack Developer & B.Tech AI Student focused on AI-powered web development, fintech tools, and interactive products.",
 };
 
 export default function RootLayout({

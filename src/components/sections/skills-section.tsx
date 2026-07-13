@@ -5,12 +5,12 @@ import { motion } from "framer-motion";
 
 const skillGroups = [
   {
-    title: "Finance",
+    title: "FinTech & Product",
     items: [
-      "Fundamental Analysis",
-      "Equity Valuation",
-      "Portfolio Construction",
-      "LTCG / STCG Tax Rules",
+      "Portfolio Analytics",
+      "Data Visualization",
+      "Tax-Aware Logic",
+      "Product Design",
     ],
   },
   {

@@ -36,7 +36,7 @@ export function ContactSection() {
           Let&apos;s get in touch
         </h2>
         <p className="max-w-[40ch] text-xs leading-relaxed text-muted-foreground/60 mb-16 tracking-wide">
-          Whether you have a question about my work, want to discuss equity markets, or simply say hello, feel free to reach out.
+          Whether you have a question about my work, want to discuss AI and web development, or simply say hello, feel free to reach out.
         </p>
 
         <div className="flex flex-col md:flex-row items-center justify-center gap-12 md:gap-24 w-full">
